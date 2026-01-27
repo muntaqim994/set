@@ -1,0 +1,22 @@
+a=set()
+a.add("maza")
+a.add("appy")
+a.add("thumps up")
+a.add("mountain due")
+a.add("sprite")
+for i in a:
+    print(i)
+
+print("---------------------------------------")
+
+b=set()
+b.add("maggie")
+b.add("biriyani")
+b.add("haleem")
+b.add("tahari")
+b.add("cup cakes")
+
+for i in b:
+    print(i)
+
+print(a.union(b))
