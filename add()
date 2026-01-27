@@ -1,0 +1,5 @@
+s = {1, "abc"}
+s.add("Python")
+s.add(1)
+for i in s:
+    print(i)
