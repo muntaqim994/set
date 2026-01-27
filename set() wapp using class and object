@@ -1,0 +1,21 @@
+class Student:
+    def __init__(self,name,id):
+        self.name=name
+        self.id=id
+
+    def getStudentinfo(self):
+        return self.name +" "+ self.id
+    
+s1=set()
+
+while True:
+    name = input("enter the student name :")
+    id= input("enter the student id :")
+    std=Student(name,id)
+    s1.add(std.getStudentinfo())
+    print(s1)
+    a1= int(input("enter 1 to add one more studenyt details else 2 :"))
+    if(a1 ==1):
+        continue
+    else:
+        break
