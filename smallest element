@@ -1,0 +1,11 @@
+l=[10,40,30,20,-3,6,3]
+l.sort()
+# print(l)
+print(l[0])
+
+l=[10,40,30,20,-3,6,3]
+smallest=0
+for num in l:
+    if num<smallest:
+        smallest=num
+print("smallest element:",smallest)
