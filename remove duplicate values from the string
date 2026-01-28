@@ -1,0 +1,9 @@
+str=input("enter the string:")
+s1=set()
+for  i in str:
+    s1.add(i)
+# print(s1)
+s2=""
+for j in s1:
+    s2=s2+j
+print(s2)
